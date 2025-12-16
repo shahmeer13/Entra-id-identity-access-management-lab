@@ -17,85 +17,101 @@ The lab follows an incident-based approach:
 
 This mirrors how Tier 1–2 Help Desk and Cloud Support Engineers handle Microsoft 365 identity incidents.
 
-🧰 Technologies & Tools
+# 🧰 Technologies & Tools
 
-Microsoft Entra ID (Azure AD)
+• Microsoft Entra ID (Azure AD)
 
-Microsoft 365 Admin Center
+• Microsoft 365 Admin Center
 
-Multi-Factor Authentication (MFA)
+• Multi-Factor Authentication (MFA)
 
-Temporary Access Pass (TAP)
+• Temporary Access Pass (TAP)
 
-Sign-in Logs & Audit Logs
+• Sign-in Logs & Audit Logs
 
-🎯 Lab Objectives
+# 🎯 Lab Objectives
 
-Create and manage cloud users
+• Create and manage cloud users
 
-Implement group-based access control
+• Implement group-based access control
 
-Simulate MFA and authentication failures
+• Simulate MFA and authentication failures
 
-Perform admin-side identity remediation
+• Perform admin-side identity remediation
 
-Validate fixes using sign-in logs
+• Validate fixes using sign-in logs
 
-🧪 Lab Walkthrough
+# 🧪 Lab Walkthrough
+
 1️⃣ Tenant & Admin Context
 
-Verified Microsoft Entra tenant configuration
+• Verified Microsoft Entra tenant configuration
 
-Confirmed Global Administrator role and permissions
+• Confirmed Global Administrator role and permissions
 
-Ensured correct directory context before proceeding
+• Ensured correct directory context before proceeding
 
 📁 ScreenShots/1.Tenant & Admin Context.md
 
+
 2️⃣ User Management
 
-Created multiple cloud users
+• Created multiple cloud users
 
-Verified user principal names and account status
+• Verified user principal names and account status
 
-Simulated real end-user identities for troubleshooting
+• Simulated real end-user identities for troubleshooting
 
 📁 ScreenShots/2.User Management.md
 
+
 3️⃣ Group-Based Access Control
 
-Created department-based security groups:
+• Created department-based security groups:
 
-IT Support
+• IT Support
 
-HR
+• HR
 
-Finance
+• Finance
 
-Sales
+• Sales
 
-Assigned users to groups to simulate role-based access
+• Assigned users to groups to simulate role-based access
 
 📁 ScreenShots/3.Groups.md
 
 4️⃣ Incident Simulation & Admin Fix
 
-Forced MFA re-registration
+• Forced MFA re-registration
 
-Removed broken authentication methods
+• Removed broken authentication methods
 
-Issued Temporary Access Pass (TAP) for account recovery
+• Issued Temporary Access Pass (TAP) for account recovery
 
-Restored secure user access as an administrator
+• Restored secure user access as an administrator
 
 📁 ScreenShots/4.Admin Fix.md
 
+
 5️⃣ Verification & Validation
 
-Reviewed Sign-in Logs after remediation
+• Reviewed Sign-in Logs after remediation
 
-Confirmed successful authentication recovery
+• Confirmed successful authentication recovery
 
-Ensured no repeated authentication failures
+• Ensured no repeated authentication failures
 
 📁 ScreenShots/5.Verification.md
+
+# 🧠 Key Skills Demonstrated
+
+• Identity & access troubleshooting
+
+• MFA remediation and recovery
+
+• User and group lifecycle management
+
+• Log-based diagnosis (Sign-in & Audit logs)
+
+• Professional IT documentation practices
